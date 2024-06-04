@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="{{url_for('static',filename = 'css/styles1.css')}}">
+</head>
+<body>
+    <h1 style="text-align: center;line-height: 1;color: azure;font-size: xx-large;">Intelligent Weather </h1>
+    <h1 style="text-align: center;line-height: 1;color: azure;font-size: xx-large;">Dashboard</h1>
+    <div class="container" style="line-height: 1;">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="Search">Search</button>
+        <div class="weather-info">
+            <h2 id="location"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+    </div>
+    <div class="container1">
+        <h1 >Trend Analysis</h1>
+        <h1 style="line-height: 0.75;">(Forecast)</h1>
+        <form action="/result1.html" method="post">
+            <input type="text" name= 'precipitate' id="precipitate" placeholder="precipitation"><br>
+            <input type="text" name = 'temp_max' id = "temp_max"placeholder="temp_max(°C)"><br>
+            <input type="text" name = 'temp_min' id="temp_min" placeholder="temp_min(°C)"><br>
+            <input type="text" name = 'wind' id="wind" placeholder="wind"><br>
+            <button id="Search button">Predict the Weather</button>
+        </form>
+    </div>
+    <script  src="{{ url_for('static',filename = 'js/script.js') }}">
+
+    </script>
+   
+</body>
+</html>

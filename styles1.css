@@ -1,0 +1,70 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f0f0f0;
+   background: url('https://images.pexels.com/photos/531972/pexels-photo-531972.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-attachment: fixed;
+}   
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Set the background color to be transparent */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    margin-top: 105px;
+    position:relative;right: 200px;
+    height: 250px;
+}
+.container1 {
+    max-width: 350px;
+    margin:0 auto;
+    text-align: center;right: 100px;
+    color: rgb(27, 141, 222);
+    padding: 20px;
+    background-color:rgba(255, 255, 255, 0.5); 
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0, 0, 0, 0.3) ;
+    margin-top: 105px;
+    position: relative;top: -330px;
+    left: 300px;
+
+
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input[type = "number"]{
+    width : 85%;
+    padding: 10px;
+    margin:10px 0 ;
+    border:1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: #2bbc07;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
